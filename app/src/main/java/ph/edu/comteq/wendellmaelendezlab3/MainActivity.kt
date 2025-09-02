@@ -61,7 +61,7 @@ fun Homepage(name: String, modifier: Modifier = Modifier) {
 
         // Logo
         Image(
-            painter = painterResource(id = R.drawable.logo), // replace with your logo
+            painter = painterResource(id = R.drawable.logo), 
             contentDescription = "Gallery Logo",
             modifier = Modifier.size(100.dp)
         )
@@ -81,7 +81,7 @@ fun Homepage(name: String, modifier: Modifier = Modifier) {
         // Louvre Image with overlay text
         Box(modifier = Modifier.fillMaxWidth()) {
             Image(
-                painter = painterResource(id = R.drawable.louvre), // replace with your Louvre image
+                painter = painterResource(id = R.drawable.louvre), 
                 contentDescription = "Louvre Arch",
                 modifier = Modifier.fillMaxWidth(),
                 contentScale = ContentScale.Crop
